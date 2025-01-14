@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="layout.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+
+    <title>MSInteriors</title>
+  </head>
+
+  <body>
+    <div class="navbar">
+      <div class="logo-container">
+        <image src="Assets/logo.jpeg" />
+      </div>
+      <div class="nav-links-container">
+        <a class="nav-item" href="index.html">Home </a>
+        <a class="nav-item" href="about.html">About Us</a>
+        <a class="nav-item" href="projects.html">Projects</a>
+
+        <div class="dropdown">
+          <button class="dropbtn">
+            Services
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="#">Interior and Exterior</a>
+            <a href="#">Electric Work</a>
+            <a href="#">H.V.A.C</a>
+            <a href="#">Health Services</a>
+            <a href="#">Value Engineering</a>
+          </div>
+        </div>
+
+        <a class="nav-item" href="contact.html">Contact </a>
+      </div>
+      <div class="hamburger-menu-container" onclick="toggleSidebar()">
+        <div class="hamburger First"></div>
+        <div class="hamburger Second"></div>
+        <div class="hamburger Third"></div>
+      </div>
+
+      <div id="sidebar" class="sidebar">
+        
+        <div class="large-screen-values">
+          <img class="sidebar-logo" src="Assets/logo.jpeg" alt="logo"/>
+          <h2>MSInteriors</h2>
+          <p>
+            Innovate Architects is a full-service design firm providing
+            architecture, interior design, and urban planning services.
+          </p>
+          <h3>Contact Info</h3>
+          <p>Phone: +91 98800 17105</p>
+          <p>Email: <a href="mailto:info@archifact.in">info@archifact.in</a></p>
+          <h3>Office Address</h3>
+          <p>
+            MAHENDRA VERMA, FLAT NO-1003 B WING TENTH FLOOR IMPERIAL HERITAGE, NALASOPARA LINK ROAD ACHOLE, OPP UNION BANK VASAI, VASAI, PALGHAR, MAHARASHTRA- 401209
+          </p>
+        </div>
+
+        <a class="small-screen-values" href="index.html">Home</a>
+        <hr>
+        <a class="small-screen-values" href="about.html">About Us</a>
+        <hr>
+        <a class="small-screen-values" href="projects.html">Projects</a>
+        <hr>
+        <div class="dropdown small-screen-dropdown">
+          <button class="dropbtn">
+            Services
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="#">Interior and Exterior</a>
+            <a href="#">Electric Work</a>
+            <a href="#">H.V.A.C</a>
+            <a href="#">Health Services</a>
+            <a href="#">Value Engineering</a>
+          </div>
+        </div>
+        <hr>
+
+      
+      </div>
+    </div>
+    
+    
+
+    
+
+
+    <!-- Footer Section -->
+<footer class="footer">
+  <div class="footer-container">
+    <h1 class="footer-heading">MSInteriors</h1>
+    
+    <!-- Important Links Section -->
+    <div class="footer-links">
+      <h4>Important Links</h4>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+    
+    <!-- Social Media Section -->
+    <div class="footer-social">
+      <h4>Follow Us</h4>
+      <div class="social-icons">
+        <a href="#" class="social-icon facebook" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" class="social-icon twitter" target="_blank"><i class="fab fa-twitter"></i></a>
+        <a href="#" class="social-icon instagram" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="#" class="social-icon linkedin" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Copyright Section -->
+  <div class="footer-copyright">
+    <p>&copy; 2025 MS Interiors. All rights reserved.</p>
+  </div>
+</footer>
+
+    
+    <div class="loader" id="loader"></div>
+
+    <div class="overlay" onclick="toggleSidebar()"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

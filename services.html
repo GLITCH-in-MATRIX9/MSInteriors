@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Styles/Services.css    " />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+
+    <title>MSInteriors</title>
+  </head>
+
+  <body>
+    <div class="navbar">
+      <div class="logo-container">
+        <image src="Assets/logo.jpeg" />
+      </div>
+      <div class="nav-links-container">
+        <a class="nav-item" href="index.html">Home </a>
+        <a class="nav-item" href="about.html">About Us</a>
+        <a class="nav-item" href="projects.html">Projects</a>
+
+        <div class="dropdown">
+          <button class="dropbtn">
+            Services
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="services.html#interior-exterior">Interior and Exterior</a>
+            <a href="services.html#electric-work">Electric Work</a>
+            <a href="services.html#hvac">H.V.A.C</a>
+            <a href="services.html#health-services">Health Services</a>
+            <a href="services.html#value-enginerring">Value Engineering</a>
+          </div>
+        </div>
+
+        <a class="nav-item" href="contact.html">Contact </a>
+      </div>
+      <div class="hamburger-menu-container" onclick="toggleSidebar()">
+        <div class="hamburger First"></div>
+        <div class="hamburger Second"></div>
+        <div class="hamburger Third"></div>
+      </div>
+
+      <div id="sidebar" class="sidebar">
+        <div class="large-screen-values">
+          <img class="sidebar-logo" src="Assets/logo.jpeg" alt="logo" />
+          <h2>MSInteriors</h2>
+          <p>
+            MS Interiors is a full-service Interior Design firm providing
+            architecture, interior design, and urban planning services.
+          </p>
+          <h3>Contact Info</h3>
+          <p>Phone: +91 98800 17105</p>
+          <p>Email: <a href="mailto:info@archifact.in">info@archifact.in</a></p>
+          <h3>Office Address</h3>
+          <p>
+            MAHENDRA VERMA, FLAT NO-1003 B WING TENTH FLOOR IMPERIAL HERITAGE, NALASOPARA LINK ROAD ACHOLE, OPP UNION BANK VASAI, VASAI, PALGHAR, MAHARASHTRA- 401209
+          </p>
+        </div>
+
+        <a class="small-screen-values" href="index.html">Home</a>
+        <hr />
+        <a class="small-screen-values" href="about.html">About Us</a>
+        <hr />
+        <a class="small-screen-values" href="projects.html">Projects</a>
+        <hr />
+        <div class="dropdown small-screen-dropdown">
+          <button class="dropbtn">
+            Services
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="services.html#interior-exterior">Interior and Exterior</a>
+            <a href="services.html#electric-work">Electric Work</a>
+            <a href="services.html#hvac">H.V.A.C</a>
+            <a href="services.html#health-services">Health Services</a>
+            <a href="services.html#value-enginerring">Value Engineering</a>
+          </div>
+        </div>
+        <hr />
+      </div>
+    </div>
+
+    <div class="offerings">
+      <h2 class="offerings-title">What We're Offering</h2>
+      <h3 class="services-title">Our Services</h3>
+      <div class="services-container">
+        <div class="service-card">
+          <img
+            src="Assets/icons8-house-100.png"
+            alt="Residential Design Icon"
+            class="icon"
+          />
+          <h4>Residential Design</h4>
+          <p>
+            We offer personalized residential design solutions to create
+            functional and aesthetic spaces for your home. Whether it's a new
+            build or a renovation, we ensure your home reflects your style while
+            maintaining practicality.
+          </p>
+        </div>
+        <div class="service-card">
+          <img
+            src="Assets/icons8-hospital-100.png"
+            alt="Hospitality Design Icon"
+            class="icon"
+          />
+          <h4>Hospitality Design</h4>
+          <p>
+            Our hospitality design services focus on creating welcoming and
+            memorable experiences for hotels, resorts, and restaurants. We aim
+            to blend luxury, comfort, and functionality to meet the needs of
+            both guests and staff.
+          </p>
+        </div>
+        <div class="service-card">
+          <img
+            src="Assets/icons8-office-100.png"
+            alt="Corporate Design Icon"
+            class="icon"
+          />
+          <h4>Corporate Design</h4>
+          <p>
+            We specialize in designing modern and efficient office spaces that
+            foster productivity, creativity, and collaboration. From layout to
+            furniture, we provide tailored designs that reflect your brand and
+            company culture.
+          </p>
+        </div>
+        <div class="service-card">
+          <img
+            src="Assets/icons8-restaurant-100.png"
+            alt="Restaurant Design Icon"
+            class="icon"
+          />
+          <h4>Restaurant Design</h4>
+          <p>
+            Our restaurant design services create inviting and functional dining
+            spaces. We focus on layout, ambiance, and branding, ensuring your
+            restaurant attracts customers and provides a comfortable dining
+            experience.
+          </p>
+        </div>
+        <div class="service-card">
+          <img
+            src="Assets/icons8-shop-100.png"
+            alt="Commercial Design Icon"
+            class="icon"
+          />
+          <h4>Commercial Design</h4>
+          <p>
+            We offer commercial design services for retail stores, offices, and
+            other business spaces. Our designs help enhance customer experience,
+            optimize space, and align with your brand’s identity.
+          </p>
+        </div>
+        <div class="service-card">
+          <img
+            src="Assets/icons8-factory-100.png"
+            alt="Industrial Design Icon"
+            class="icon"
+          />
+          <h4>Industrial Design</h4>
+          <p>
+            Our industrial design services focus on the design of functional and
+            efficient spaces for factories, warehouses, and manufacturing units.
+            We help streamline operations, improve workflow, and ensure safety
+            in all environments.
+          </p>
+        </div>
+      </div>
+      <a href="projects.html"
+        ><button class="view-all-button">View Projects</button></a
+      >
+    </div>
+
+
+
+
+    <div class="half-pages">
+      <div id="interior-exterior" class="left-right-section">
+        <!-- Left Section -->
+        <div class="left-section">
+          <h2 class="section-heading">Interior and Exterior</h2>
+          <h3 class="section-subheading">Design and Implementation</h3>
+          <p class="section-paragraph">
+            Our Interior and Exterior services focus on creating functional,
+            aesthetically pleasing spaces. We offer innovative design solutions
+            that integrate the latest trends in both indoor and outdoor spaces
+            to enhance comfort and functionality.
+          </p>
+        </div>
+
+        <!-- Right Section -->
+        <div class="right-section">
+          <img
+            src="Assets/Sample3.jpg"
+            alt="Interior and Exterior Design"
+            class="section-image"
+          />
+        </div>
+      </div>
+    </div>
+
+    <div class="half-pages">
+      <div id="electric-work" class="left-right-section ">
+        <!-- Left Section -->
+        <div class="left-section">
+          <img
+            src="Assets/Sample3.jpg"
+            alt="Electric Work"
+            class="section-image"
+          />
+        </div>
+
+        <!-- Right Section -->
+        <div class="right-section">
+          <h2 class="section-heading">Electric Work</h2>
+          <h3 class="section-subheading">
+            Reliable and Safe Electrical Solutions
+          </h3>
+          <p class="section-paragraph">
+            We provide top-notch electric work services that ensure safety and
+            efficiency. Our team of experts handles everything from electrical
+            installations to troubleshooting, keeping your home or business
+            powered and secure.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="half-pages">
+      <div id="hvac" class="left-right-section">
+        <!-- Left Section -->
+        <div class="left-section">
+          <h2 class="section-heading">H.V.A.C</h2>
+          <h3 class="section-subheading">
+            Heating, Ventilation, and Air Conditioning
+          </h3>
+          <p class="section-paragraph">
+            Our HVAC services ensure your indoor environment is comfortable
+            year-round. Whether you need installation, maintenance, or repairs
+            for heating, cooling, or ventilation systems, we have you covered.
+          </p>
+        </div>
+
+        <!-- Right Section -->
+        <div class="right-section">
+          <img
+            src="Assets/Sample3.jpg"
+            alt="HVAC Systems"
+            class="section-image"
+          />
+        </div>
+      </div>
+    </div>
+
+    <div class="half-pages">
+      <div id="health-services" class="left-right-section">
+        <!-- Left Section -->
+        <div class="left-section">
+          <img
+            src="Assets/Sample3.jpg"
+            alt="Health Services"
+            class="section-image"
+          />
+        </div>
+
+        <!-- Right Section -->
+        <div class="right-section">
+          <h2 class="section-heading">Health Services</h2>
+          <h3 class="section-subheading">Promoting Well-being and Care</h3>
+          <p class="section-paragraph">
+            We offer health services focused on maintaining and improving your
+            well-being. From medical consultations to preventive care, our team
+            ensures you receive the best support for a healthy lifestyle.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="half-pages">
+      <div id="value-engineering" class="left-right-section">
+        <!-- Left Section -->
+        <div class="left-section">
+          <h2 class="section-heading">Value Engineering</h2>
+          <h3 class="section-subheading">
+            Maximizing Efficiency and Cost-Effectiveness
+          </h3>
+          <p class="section-paragraph">
+            Our Value Engineering services focus on optimizing the design and
+            construction process to deliver high-quality results within budget.
+            We analyze your project needs to ensure value is maximized at every
+            stage.
+          </p>
+        </div>
+
+        <!-- Right Section -->
+        <div class="right-section">
+          <img
+            src="Assets/Sample3.jpg"
+            alt="Value Engineering"
+            class="section-image"
+          />
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+      <div class="footer-container">
+        <h1 class="footer-heading">MSInteriors</h1>
+
+        <!-- Important Links Section -->
+        <div class="footer-links">
+          <h4>Important Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+
+        <!-- Social Media Section -->
+        <div class="footer-social">
+          <h4>Follow Us</h4>
+          <div class="social-icons">
+            <a href="#" class="social-icon facebook" target="_blank"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+            <a href="#" class="social-icon twitter" target="_blank"
+              ><i class="fab fa-twitter"></i
+            ></a>
+            <a href="#" class="social-icon instagram" target="_blank"
+              ><i class="fab fa-instagram"></i
+            ></a>
+            <a href="#" class="social-icon linkedin" target="_blank"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Copyright Section -->
+      <div class="footer-copyright">
+        <p>&copy; 2025 MS Interiors. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <div class="loader" id="loader"></div>
+
+    <div class="overlay" onclick="toggleSidebar()"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
