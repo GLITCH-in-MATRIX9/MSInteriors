@@ -332,7 +332,7 @@ hr {
 .heading-xl {
   font-size: 3rem;
   font-weight: bold;
-  color: #333;
+  color: #000000;
   margin-bottom: 1rem;
 }
 
@@ -410,7 +410,13 @@ hr {
   border-radius: 5px;
 }
 
-.team-info {
+.team-info p{
+  max-width: 500px;
+  margin: 20px;
+  text-align: center;
+  color: #555;
+}
+.team-info h2{
   max-width: 500px;
   margin: 20px;
   text-align: center;
