@@ -406,7 +406,7 @@ hr {
   }
 
   .slider-heading {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 
   .slider-text {
@@ -414,7 +414,7 @@ hr {
   }
 
   .btn {
-    font-size: 1rem;
+    font-size: 0.5rem;
     padding: 0.6rem 1.5rem;
   }
 }
@@ -425,17 +425,14 @@ hr {
   }
 
   .slider-heading {
-    font-size: 1.8rem;
+    font-size: 1.3rem;
   }
 
   .slider-text {
     font-size: 1rem;
   }
 
-  .btn {
-    font-size: 0.9rem;
-    padding: 0.5rem 1rem;
-  }
+  
 }
 
 
