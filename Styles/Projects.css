@@ -138,8 +138,8 @@
   transition: 0.3s;
   padding-top: 60px;
   z-index: 1;
+  overflow: hidden;
 }
-
 .sidebar a {
   padding: 10px 15px;
   text-decoration: none;

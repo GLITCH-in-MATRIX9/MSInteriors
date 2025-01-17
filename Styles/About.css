@@ -138,8 +138,8 @@
   transition: 0.3s;
   padding-top: 60px;
   z-index: 1;
+  overflow: hidden;
 }
-
 .sidebar a {
   padding: 10px 15px;
   text-decoration: none;
@@ -358,17 +358,6 @@ hr {
   transition: ease-in-out 0.3s;
 }
 
-/* Social Links */
-.banner-links a {
-  margin: 0 0.5rem;
-  font-size: 1.5rem;
-  color: #333;
-  text-decoration: none;
-}
-
-.banner-links a:hover {
-  color: #007bff;
-}
 
 /* Media Queries for Small Screens */
 @media only screen and (max-width: 768px) {
@@ -405,80 +394,47 @@ hr {
   }
 }
 
-/* services that we offer section */
-.offerings {
-  text-align: center;
-  padding: 40px;
-}
 
-.offerings-title {
-  font-size: 1rem;
-  margin-bottom: 20px;
-  color: #6a6a6a;
-}
-
-.services-title {
-  font-size: 2.5rem;
-  margin-bottom: 30px;
-  color:black;
-}
-
-.services-container {
+.team-container {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
   justify-content: center;
-  gap: 20px;
-}
-
-.service-card {
-  background-color: #f9f9f9;
-  border-radius: 8px;
   padding: 20px;
-  width: 400px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+}
+
+.team-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.team-info {
+  max-width: 500px;
+  margin: 20px;
   text-align: center;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.service-card h4 {
-  font-size: 1.5rem;
-  color: #333;
-  margin-bottom: 15px;
-  margin-top: 20px;
+@media (max-width: 768px) {
+  .team-container {
+      flex-direction: column;
+  }
+
+  .team-info {
+      margin-top: 10px;
+  }
 }
 
-.service-card p {
-  font-size: 1rem;
-  color: #666;
-  margin-bottom: 20px;
+@media (max-width: 480px) {
+  .team-info h2 {
+      font-size: 1.5em;
+  }
+
+  .team-info p {
+      font-size: 1em;
+  }
 }
-
-.service-card a {
-  color: #007bff;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-.service-card:hover {
-  transform: translateY(-10px);
-  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
-}
-
-.view-all-button{
-  color: black;
-  margin-top: 20px;
-  border: none;
-  padding: 10px;
-  cursor: pointer;
-  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.view-all-button:hover{
-  transform: translateY(-5px);
-}
-
-
 
 
 
