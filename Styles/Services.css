@@ -298,7 +298,7 @@ hr {
 /* services that we offer section */
 .offerings {
   text-align: center;
-  padding: 40px;
+  padding: 10px;
 }
 
 .offerings-title {
@@ -364,8 +364,20 @@ hr {
 
 /* Media query to hide images on smaller screens */
 @media (max-width: 768px) {
+
+  .services-title {
+    font-size: 2rem;
+  }
+
+  .service-card {
+    width: 200px;
+    height: auto;
+  }
+}
+
+@media (max-width: 480px) {
   .service-card img {
-    display: none;
+    width: 50px;
   }
 
   .services-title {
@@ -373,7 +385,18 @@ hr {
   }
 
   .service-card {
-    width: 100%;
+    width: 150px;
+    height: auto;
+  }
+  .service-card h4 {
+    font-size: 1.2rem;
+    color: #1a1a1a;
+    margin-bottom: 15px;
+    margin-top: 20px;
+  }
+  
+  .service-card p {
+    display: none;
   }
 }
 
