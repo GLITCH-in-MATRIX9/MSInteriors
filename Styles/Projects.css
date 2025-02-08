@@ -307,11 +307,10 @@ hr {
 
 .project-card {
     background: #fff;
-    border: 1px solid #ccc;
     border-radius: 8px;
     padding: 20px;
     width: 100%;
-    max-width: 300px;
+    max-width: 400px;
     text-align: center;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     cursor: pointer;
@@ -320,7 +319,7 @@ hr {
 }
 
 .project-card:hover{
-    transform:scale(1.05);
+    transform:scale(1.03);
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
@@ -337,7 +336,7 @@ hr {
 .project-image {
     width: 100%;
     height: auto;
-    max-height: 200px;
+    max-height: 300px;
     border-radius: 8px;
 }
 
@@ -465,11 +464,11 @@ hr {
 
 /* Footer Styling */
 .footer {
-  background-image: url("/Assets/sample1.jpg");
+  background-image: url("/Assets/Sites/Starbucks-Chennai/starbucks-chennai\ \(7\).jpeg");
   background-color: rgba(0, 0, 0, 0.6);
   background-blend-mode: darken;
   color: #fff;
-  padding: 40px 20px;
+  padding: 50px 20px;
   text-align: center;
 }
 

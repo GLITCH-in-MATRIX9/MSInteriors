@@ -409,8 +409,8 @@ hr {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  padding: 0px 70px;
-  gap: 100px;
+  padding: 0px 150px;
+  gap: 50px;
 }
 
 .left-section {
@@ -437,6 +437,7 @@ hr {
 .section-paragraph {
   font-size: 1rem;
   line-height: 1.5;
+  padding-right: 0px 20px;
 }
 
 .section-image {
@@ -499,7 +500,7 @@ hr {
 
 /* Footer Styling */
 .footer {
-  background-image: url("/Assets/sample1.jpg");
+  background-image: url("/Assets/Sites/Starbucks-Chennai/starbucks-chennai\ \(7\).jpeg");
   background-color: rgba(0, 0, 0, 0.6);
   background-blend-mode: darken;
   color: #fff;

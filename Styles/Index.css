@@ -3,7 +3,7 @@
 /* Root Variables */
 :root {
   --primary-colour: #ffffff;
-  --secondary-colour: #393939;
+  --secondary-colour: #0a6aaf;
   --tertiary-colour: #353e45;
   --font-colour: #323740;
   --font-2-color: #575757;
@@ -364,23 +364,25 @@ hr {
   transition: background-color 0.3s ease;
   display: inline-block;
   align-items: center;
+  transition: transform 0.3s ease-in-out;
 }
 
 .btn:hover {
-  background-color: #000000;
-  color: white;
+  transform: scale(1.1);
 }
 
 /* Contact Us Button */
-.btn-contact {
+.btn-services{
   background-color: #ffffff;
   color: black;
+  transition: transform 0.3s ease-in-out;
 }
 
 /* See Projects Button */
 .btn-projects {
   background-color: #ffffff;
   color: black;
+  transition: transform 0.3s ease-in-out;
 }
 
 /* Ensuring Responsiveness of herosection and navbar */
@@ -454,7 +456,7 @@ hr {
 
 
 /* second-section-index */
-/* Container for the second section */
+/* Container for the second section(about us) */
 
 .headings{
   color: #000000;
@@ -478,17 +480,18 @@ hr {
   width: 100%;
   height: auto;
   object-fit: cover;
-  padding: 10px 10px;
+  padding: 10px 6px;
   border-radius: 15px;
 }
 
 .about-us {
   flex: 1;
-  text-align: left;
+  text-align: center;
   color: var(--font-2-color);
 }
 
 .about-us p {
+  font-family: var(--text-font-family);
   font-size: 16px;
   line-height: 1.6;
   margin-bottom: 20px;
@@ -496,8 +499,6 @@ hr {
 }
 
 .about-us button {
-  background-color: var(--secondary-colour);
-  color: var(--primary-colour);
   padding: 10px 20px;
   border: none;
   border-radius: 4px;
@@ -507,7 +508,8 @@ hr {
 }
 
 .about-us button:hover {
-  background-color: var(--tertiary-colour);
+  background-color: black;
+  color: white;
 }
 
 .animate-on-scroll {
@@ -553,37 +555,13 @@ hr {
   display: flex;
   justify-content: space-between;  
   font-size: 1.3rem;
-  margin: 40px;
+  margin: 50px;
   gap: 250px;
-}
-
-/* Styling for each text block within descriptive-text */
-.descriptive-text > div {
-  display: flex;
-  flex-direction: column;
-  justify-content: center; 
-}
-
-/* Styling for h1 in the descriptive-text */
-.descriptive-text h1 {
-  text-wrap: nowrap;
-  text-align: left; 
-  margin: 0;
-}
-
-/* Styling for p in the descriptive-text */
-.descriptive-text p {
-  text-align: right;  
-  font-family: var(--text-font-family);
-  font-size: 20px;
-  color: var(--font-2-color);
-  margin: 10px 0;
+  text-align: center; 
 }
 
 
-.descriptive-text > div {
-  flex: 1;  
-}
+
 
 .third-section {
   display: flex;
@@ -737,7 +715,7 @@ hr {
   }
 
   .proj1 img, .proj2 img, .proj3 img, .proj4 img, .proj5 img, .proj6 img {
-    height: 350px; /* Further reduce image height */
+    height: 350px; 
   }
 }
 
@@ -755,7 +733,7 @@ hr {
   }
 
   .proj1 img, .proj2 img, .proj3 img, .proj4 img, .proj5 img, .proj6 img {
-    height:100px;
+    height:200px;
   }
 
   .column1, .column2, .column3 {
@@ -900,7 +878,7 @@ hr {
 
 /* Footer Styling */
 .footer {
-  background-image: url("/Assets/sample1.jpg");
+  background-image: url("/Assets/Sites/Starbucks-Chennai/starbucks-chennai\ \(7\).jpeg");
   background-color: rgba(0, 0, 0, 0.6);
   background-blend-mode: darken;
   color: #fff;

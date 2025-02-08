@@ -77,8 +77,10 @@ const imageGallery = document.getElementById('imageGallery');
 const closeBar = document.querySelector('.close-bar');
 
 const projectImagesData = {
-  project1: ['Assets/sample1.jpg', 'Assets/sample1.jpg', 'Assets/sample1.jpg', 'Assets/sample1.jpg', 'Assets/sample1.jpg', 'Assets/sample1.jpg'],
-  project2: ['Assets/sample1.jpg', 'Assets/sample1.jpg', 'Assets/sample1.jpg']
+  project1: ['Assets/Sites/Nonnas-kormangala/nonnas-outlet (1).jpeg','Assets/Sites/Nonnas-kormangala/nonnas-outlet (2).jpeg','Assets/Sites/Nonnas-kormangala/nonnas-outlet (3).jpeg','Assets/Sites/Nonnas-kormangala/nonnas-outlet (4).jpeg','Assets/Sites/Nonnas-kormangala/nonnas-outlet (5).jpeg','Assets/Sites/Nonnas-kormangala/nonnas-outlet (6).jpeg'],
+  project2: ['Assets/Sites/Nonna\'s-outlet/nonnas (19).jpeg', 'Assets/Sites/Nonna\'s-outlet/nonnas (3).jpeg', 'Assets/Sites/Nonna\'s-outlet/nonnas (4).jpeg', 'Assets/Sites/Nonna\'s-outlet/nonnas (5).jpeg', 'Assets/Sites/Nonna\'s-outlet/nonnas (16).jpeg', 'Assets/Sites/Nonna\'s-outlet/nonnas (15).jpeg',],
+  project3: ['Assets/Sites/Starbucks-Chennai/starbucks-chennai (1).jpeg','Assets/Sites/Starbucks-Chennai/starbucks-chennai (2).jpeg','Assets/Sites/Starbucks-Chennai/starbucks-chennai (3).jpeg','Assets/Sites/Starbucks-Chennai/starbucks-chennai (4).jpeg','Assets/Sites/Starbucks-Chennai/starbucks-chennai (5).jpeg','Assets/Sites/Starbucks-Chennai/starbucks-chennai (6).jpeg','Assets/Sites/Starbucks-Chennai/starbucks-chennai (7).jpeg',]
+
 };
 
 projectImages.forEach(image => {
