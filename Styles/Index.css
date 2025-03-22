@@ -486,11 +486,12 @@ hr {
 
 .about-us {
   flex: 1;
-  text-align: center;
+  text-align: left;
   color: var(--font-2-color);
 }
 
 .about-us p {
+text-align: left;
   font-family: var(--text-font-family);
   font-size: 16px;
   line-height: 1.6;
