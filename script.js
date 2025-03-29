@@ -196,7 +196,7 @@ const projectsData = {
 
   project9: {
     title: "Pizza Express",
-    location: "Indranagar, Bengaluru",
+    location: "Indiranagar, Bengaluru",
     images: [
       'Assets/Sites/pizzaexpress-indranagar/pizzaExpress (1).JPG',
       'Assets/Sites/pizzaexpress-indranagar/pizzaExpress (2).JPG',
