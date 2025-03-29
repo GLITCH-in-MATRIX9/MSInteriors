@@ -198,13 +198,13 @@ const projectsData = {
     title: "Pizza Express",
     location: "Indiranagar, Bengaluru",
     images: [
-      'Assets/Sites/pizzaexpress-indranagar/pizzaExpress (1).JPG',
+      'Assets/Sites/pizzaexpress-indranagar/pizzaExpress (1).jpg',
       'Assets/Sites/pizzaexpress-indranagar/pizzaExpress (2).JPG',
-      'Assets/Sites/pizzaexpress-indranagar/pizzaExpress (3).JPG',
-      'Assets/Sites/pizzaexpress-indranagar/pizzaExpress (4).JPG',
+      'Assets/Sites/pizzaexpress-indranagar/pizzaExpress (3).jpg',
+      'Assets/Sites/pizzaexpress-indranagar/pizzaExpress (4).jpg',
       'Assets/Sites/pizzaexpress-indranagar/pizzaExpress (5).JPG',
       'Assets/Sites/pizzaexpress-indranagar/pizzaExpress (6).JPG',
-      'Assets/Sites/pizzaexpress-indranagar/pizzaExpress (7).JPG',
+      'Assets/Sites/pizzaexpress-indranagar/pizzaExpress (7).jpg',
 
       
     ]
