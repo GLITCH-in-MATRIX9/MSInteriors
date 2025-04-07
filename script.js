@@ -212,15 +212,15 @@ const projectsData = {
 
   project10: {
     title: "Starbucks Cafe",
-    location: "Popur, Chennai",
+    location: "Porur, Chennai",
     images: [
-      'Assets/Sites/starbucks-popur/starbucks-popur (1).jpg',
-      'Assets/Sites/starbucks-popur/starbucks-popur (2).jpg',
-      'Assets/Sites/starbucks-popur/starbucks-popur (3).jpg',
-      'Assets/Sites/starbucks-popur/starbucks-popur (4).jpg',
-      'Assets/Sites/starbucks-popur/starbucks-popur (5).jpg',
-      'Assets/Sites/starbucks-popur/starbucks-popur (6).jpg',
-      'Assets/Sites/starbucks-popur/starbucks-popur (7).jpg',
+      'Assets/Sites/starbucks-porur/starbucks-porur (1).jpg',
+      'Assets/Sites/starbucks-porur/starbucks-porur (2).jpg',
+      'Assets/Sites/starbucks-porur/starbucks-porur (3).jpg',
+      'Assets/Sites/starbucks-porur/starbucks-porur (4).jpg',
+      'Assets/Sites/starbucks-porur/starbucks-porur (5).jpg',
+      'Assets/Sites/starbucks-porur/starbucks-porur (6).jpg',
+      'Assets/Sites/starbucks-porur/starbucks-porur (7).jpg',
       
     ]
   },
